@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+body {
+    background-color:snow;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+div {
+    height: 100px; 
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+nav {
+    display: flex;
+    gap: 40px; 
+}
+a {
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    padding: 5px;
+    transition: .4s ease;
+}
+a :hover {
+    transition: .4s ease;
+    border: 2px solid rgb blue (6, 260, 255);
+}
+img {
+    width: 100px;
+}
+h1 {
+    font-size: 20px;
+}
+.encabezado {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.nombre {
+    font-size: 34px;
+    margin: 0;
+    margin-left: 1px;
+    margin-right: 170px;
+}
+.logo {
+    margin-left: 50px;
+}
+.catalogo {
+    padding: 120px 30px;
+    text-align: center;
+    background-color: #a8e4fa;
+    transform: translate(-450px, 10px);
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+  }
+  .servicios {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    transform: translate(20px, -60px);
+  }
+  
+  .service-card {
+    background-color: white;
+    border-radius: 32px;
+    padding: 40px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    transform: translate(-10px, -10px);
+    text-decoration: none;
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transform: translate(-10px, -0px);
+    text-decoration: none;
+  }
+  
+  .service-card h3 {
+    color: cornflowerblue;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .servicios h3 {
+    margin-left: 0px;
+    margin-top: 220px;
+    transform: translate(-710px, 20px);
+    text-decoration: none;
+  }
+  .nombre {
+    transform: translate(-500px, 0px);
+    text-decoration: none;
+  }
+  .titulo {
+    transform: translate(10px, -80px);
+    color: black;
+  }
+.imagenmanten img {
+    text-align: right;
+    margin-left: 20px;
+    transform: translate(1500px, 300px);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid cornflowerblue;
+}
